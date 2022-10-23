@@ -1,0 +1,118 @@
+body{
+    font-family: 'Baloo 2', sans-rerif;
+}
+/*==========================HEADER MED LÄNKAR ====================*/
+
+header{
+    background-color: $main-color;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    
+    ul{
+        padding: 0;
+    }
+
+    li{
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+        li:hover{
+        border-bottom: 1px solid black;
+        }
+    a{
+        text-decoration: none;
+        color: $text-color;
+    }
+}
+/*===============================================================*/
+
+
+h1{
+    position: relative;
+    top: 80px;
+    text-align: center;
+
+
+}
+/*==================FLEX-BOX OM MIG ============================*/
+
+.flex-about-me{
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 100px;
+
+    background-color: rgba(62, 105, 62, 0.7);
+     
+    .profile-img{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+     
+        img{
+            width: 140px;
+            height: auto;
+            border-radius: 50%;
+            
+            box-shadow: 1px 2px 3px 3px rgb(58, 95, 58);
+        }
+        
+    }
+
+    .about-me{
+        width: 33%;
+
+        ul{
+            text-align: c;
+            padding-top: 30px;
+            padding-left: 0;
+        }
+        
+        li{
+            font-weight: 500;
+            padding-bottom: 5px;
+            font-size: 0.8rem;
+            list-style: none;
+        
+        }
+        a{
+            text-decoration: none;
+        }
+        i{
+            padding-top: 15px;
+            font-size: 1.7rem;
+            color: $text-color;
+        }
+        i.fa-brands.fa-linkedin{
+            padding-right: 10px;
+        }
+        i:hover{
+            color: $main-color;
+        }
+    }
+
+    .other{
+        width: 33%;
+    }
+}
+    
+
+
+
+
+
+
+
+
+/*=============================================================*/
