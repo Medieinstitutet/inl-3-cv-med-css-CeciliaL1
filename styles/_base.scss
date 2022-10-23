@@ -1,10 +1,19 @@
 body{
     font-family: 'Baloo 2', sans-rerif;
+    background-image: url('/images/background.jpg');
+}
+main{
+    background-color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
 }
 /*==========================HEADER MED LÄNKAR ====================*/
 
 header{
-    background-color: $main-color;
+    background-color: rgb(99, 141, 99);
     text-align: center;
     position: fixed;
     top: 0;
@@ -52,7 +61,7 @@ h1{
     padding-bottom: 30px;
     padding-top: 30px;
     margin-top: 100px;
-
+    box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.5);
     background-color: rgba(62, 105, 62, 0.7);
      
     .profile-img{
@@ -61,7 +70,7 @@ h1{
         justify-content: center;
      
         img{
-            width: 140px;
+            width: 100px;
             height: auto;
             border-radius: 50%;
             
@@ -74,8 +83,7 @@ h1{
         width: 33%;
 
         ul{
-            text-align: c;
-            padding-top: 30px;
+            padding-top: 10px;
             padding-left: 0;
         }
         
@@ -104,15 +112,58 @@ h1{
 
     .other{
         width: 33%;
+
+        
+        .lang-rating{
+            font-size: 0.8rem;
+            .dot-filled{
+                height: 10px;
+                width: 10px;
+                background-color: rgb(66, 65, 65);
+                border-radius: 50%;
+                display: inline-block;
+                border: 1px solid rgb(187, 185, 185);
+            }
+            .dot{
+                height: 10px;
+                width: 10px;
+                background-color: rgb(187, 185, 185);
+                border-radius: 50%;
+                display: inline-block;
+
+            }
+        }
     }
 }
     
+/*=============================================================*/
 
+/*==================TEXT- OM MIG ============================*/
 
+.hiss-pitch{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+    h3{
+        width: fit-content;
+        height: auto;
+        padding: 3px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color:  rgba(62, 105, 62, 0.7);
+        position: relative;
+    
+       
+    }
+    p{
+        width: 80%;
+    }
 
-
-
-
-
-
+}
 /*=============================================================*/
