@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap" rel="stylesheet"> 
+    
+    <script src="https://kit.fontawesome.com/5bfa57c688.js" crossorigin="anonymous"></script>
+
     <title>Cecilia Lepik</title>
 </head>
 <body>
-    <header id="page-top"> <!-- Länkarna ska gå till olika delar av CV:et-->
+
+    
+
+    <header > <!-- Länkarna ska gå till olika delar av CV:et-->
         <nav>
             <ul>
                 <li><a href="#education">Utbildning</a></li>
@@ -19,23 +28,33 @@
         </nav>
     </header>
 
-    <main>
+    <main id="page-top">
+    <h1>Cecilia Lepik</h1>
+
+    
+    <section class="flex-about-me">
+
         <div class="profile-img">
              <figure>
-                  <img src="#" alt="profilepic">
+                  <img src="/images/cecilia.jpg" width="200" alt="profilepic">
              </figure>
-            </div>
+        </div>
+
 
        <div class="about-me">
-            <h3>Cecilia Lepik</h3>
-            <p>07XXXXXXXX</p>
-            <p>ceciliaXX@hotmail.com</p>
-            <p>Furulund, Skåne, Sverige</p>
-            <a href="https://www.linkedin.com/in/cecilia-lepik-70360b213/" target="_blank">Linkedin Profil</a>
-            <a href="https://github.com/CeciliaL1" target="_blank">Github</a>
-       </div>
+            <ul>
+                <li>07XXXXXXXX</li>
+                <li>ceciliaXX@hotmail.com</li>
+                <li>Furulund, Skåne</li>
+            
+                <li><a href="https://www.linkedin.com/in/cecilia-l-51b217253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/CeciliaL1" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+            </ul>
+        </div>
+
 
        <div class="other">
+
             <div class="lang-rating">
                  <h4>Språk</h4>
                  <p>Svenska</p> <!-- Här ska en rating in 5/5-->
@@ -46,6 +65,7 @@
                         <span class="dot-filled"></span> 
                         <span class="dot-filled"></span> 
                     </div>
+
                 <p>Engelska</p> <!-- Här ska en rating in 4/5-->
                     <div class="rating">
                         <span class="dot-filled"></span>
@@ -56,24 +76,25 @@
                     </div>
              </div>
 
-             <div>
-                <h4>Körkort</h4>
-                <p>B</p>
-            </div>
+                
+        
+
         </div>
-    </main>
+    </section>
 
     <!--Section för Hisspitch/personligt brev-->
+
     <section class="hiss-pitch">
             <h3>Om mig</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
     </section>
 
     <!--Skill-rating inom områden -->
 
     <section class="skills-rating">
-        <div>
+
+        <div class="html">
             <h5>HTML</h5>
             <!-- Här ska en rating in 2/5 med CSS-->
                  <div class="rating">
@@ -84,7 +105,8 @@
                     <span class="dot"></span> 
                  </div>
         </div>
-        <div>
+
+        <div class="css">
             <h5>CSS</h5>
                <div class="rating">
             <!-- Här ska en rating in 2/5 med CSS-->
@@ -96,7 +118,8 @@
                 </div>
             
         </div>
-        <div>
+
+        <div class="JavaScript">
             <h5>JavaScript</h5>
             <!-- Här ska en rating in 0/5 med CSS-->
                 <div class="rating">
@@ -107,7 +130,8 @@
                     <span class="dot"></span> 
                 </div>
         </div>
-        <div>
+
+        <div class="cSharp">
             <h5>C#</h5>
             <!-- Här ska en rating in 1/5 med CSS-->
             <div class="rating">
@@ -119,7 +143,8 @@
             </div>
           
         </div>
-        <div>
+
+        <div class="react">
             <h5>React</h5>
             <!-- Här ska en rating in 0/5 med CSS-->
             <div class="rating">
@@ -134,7 +159,9 @@
 
     <!--Utbildning-->
     <section id="education" class="education">
+
         <h2>Utbildning</h2>
+
         <section class="FED">
             <h4>Front End Developer - Medieinstitutet</h4>
 
@@ -174,32 +201,42 @@
         <!--Övrig utbildning-->
 
         <section class="other-edu">
+            <div>
                 <h4>Gymnasiekurser</h4>
                 <p>Webbutveckling 1</p>
                 <p>Programmering 1</p>
+            </div>
 
+            <div>
                 <h4>Gildaskolan - Malmö</h4>
                 <p>Hudterapeut</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
 
+            <div>
                 <h4>Komvux-Kävlinge</h4>
                 <p>Undersköterska</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        </section>
+            </div>
+            </section>
     </section>
 
         <!--- Arbetslivserfarenhet-->
 
     <section id="work-experience" >
+
         <h2>Arbetslivserfarenhet</h2>
+
         <section>
             <h4>Lenhud - Hudterapeut</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         </section>
+
         <section>
             <h4>Förenade Care - Undersköterska</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         </section>
+
         <section>
             <h4>Graffiti café</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
@@ -213,6 +250,6 @@
         </ul>
     </footer>
    
-
+</main>
 </body>
 </html>
