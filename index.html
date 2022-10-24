@@ -11,37 +11,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap" rel="stylesheet"> 
     
     <script src="https://kit.fontawesome.com/5bfa57c688.js" crossorigin="anonymous"></script>
-
     <title>Cecilia Lepik</title>
 </head>
 <body>
-
-    
-
-    <header > <!-- Länkarna ska gå till olika delar av CV:et-->
-        <nav>
-            <ul>
-                <li><a href="#education">Utbildning</a></li>
-                <li><a href="#work-experience">Arbetslivserfarenhet</a></li>
-                <li><a href="#page-bottom">Botten av sidan</a></li>
-            </ul>
+    <header> <!-- Länkarna ska gå till olika delar av CV:et-->
+        <nav class="dropDown">
+            <button class="dropBtn">Navigera på sidan</button>
+            <div class="drop-down">
+                <ul>
+                    <li><a href="#about-me">Om mig</a></li>
+                    <li><a href="#education">Utbildning</a></li>
+                    <li><a href="#work-experience">Arbetslivserfarenhet</a></li>
+                    <li><a href="#page-bottom">Botten av sidan</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <main id="page-top">
-    <h1>Cecilia Lepik</h1>
+    <div class="front-page">
+        <h1>Cecilia Lepik</h1>
+        <p>Studerande till Front End Developer på Medieinstitutet</p>
+    </div>
 
+
+<main class="page-w-content" id="page-top">
     
-    <section class="flex-about-me">
+    <section class="flex-about-me" id="about-me">
 
         <div class="profile-img">
              <figure>
                   <img src="/images/cecilia.jpg" width="200" alt="profilepic">
              </figure>
-        </div>
+        </div >
 
 
-       <div class="about-me">
+       <div class="about-me"  >
             <ul>
                 <li>07XXXXXXXX</li>
                 <li>ceciliaXX@hotmail.com</li>
@@ -54,27 +58,26 @@
 
 
        <div class="other">
+            <h4>Språk</h4>
+                
+            <div class="rating">
+                <p>Svenska</p> <!-- Här ska en rating in 5/5-->
+                <span class="dot-filled"></span>
+                <span class="dot-filled"></span>
+                <span class="dot-filled"></span>
+                <span class="dot-filled"></span> 
+                <span class="dot-filled"></span> 
+            </div>
 
-            <div class="lang-rating">
-                 <h4>Språk</h4>
-                 <p>Svenska</p> <!-- Här ska en rating in 5/5-->
-                    <div class="rating">
-                        <span class="dot-filled"></span>
-                        <span class="dot-filled"></span>
-                        <span class="dot-filled"></span>
-                        <span class="dot-filled"></span> 
-                        <span class="dot-filled"></span> 
-                    </div>
-
+                
+            <div class="rating">
                 <p>Engelska</p> <!-- Här ska en rating in 4/5-->
-                    <div class="rating">
-                        <span class="dot-filled"></span>
-                        <span class="dot-filled"></span>
-                        <span class="dot-filled"></span>
-                        <span class="dot-filled"></span> 
-                        <span class="dot"></span> 
-                    </div>
-             </div>
+                <span class="dot-filled"></span>
+                <span class="dot-filled"></span>
+                <span class="dot-filled"></span>
+                <span class="dot-filled"></span> 
+                <span class="dot"></span> 
+            </div>
 
                 
         
@@ -251,5 +254,6 @@
     </footer>
    
 </main>
+
 </body>
 </html>
