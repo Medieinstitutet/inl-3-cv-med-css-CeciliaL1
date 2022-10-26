@@ -3,13 +3,12 @@ $text-color: rgb(206, 184, 137);
 
 
 *{
-    margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 @import 'base';
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 660px){
     @import 'tablet';
 }
 @media screen and (min-width:1366) {
