@@ -12,6 +12,6 @@ $text-color: rgb(206, 184, 137);
 @media screen and (min-width: 660px){
     @import 'tablet';
 }
-@media screen and (min-width:1366) {
-    @import 'desktop'
+@media screen and (min-width: 1366px) {
+    @import 'desktop';
 }

@@ -1,54 +1,108 @@
 
 
-
-.flex-about-me{
-    .profile-img{
-        width: 33%;
-    }
-
-    .about-me{
-        width: 33%;
-    }
-
-    .other{
-        width: 33%;
-        padding-top: 80px;
-}
-}
-
+/*==========================================================================================
+======================= HEADER MED LÄNKAR ===================================================
+============================================================================================*/
 
 
 header{
-    position: fixed;
-    top: 20px;
-    text-align: center;
-    width: 100%;
-    
-    .dropBtn{
+    nav{
+       left:20%;
+    }
+
+   button{
     display: none;
-    }
-    .drop-down {
-        visibility: visible;
-        width: 100%;
-        background-color: transparent;
-    }
+   }
+   .menu{
+    background-color: transparent;
 
     li{
-        display: inline;
-        list-style: none;
-        &:hover{
-            background-color: transparent;
-            text-shadow: 0px 0px 5px rgb(206, 184, 137);
-        }
-    }
+        display: inline-block;
+        padding: 15px;
+   }
+   
 
     a{
-        font-size: 1.2rem;
-        text-decoration: none;
-        color: $text-color;
-        padding: 10px;
+    color: $text-color;
+    &:hover{
+        background-color: transparent;
+        text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+    }
+     }
+   }
    
+   
+   button + .menu {
+    display: inline;
+    opacity: 100;
+    visibility: visible;
+  }
+}
+
+/*==========================================================================================*/
+
+
+
+
+.page-w-content{
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-top: 50px;
+
+
+    .flex-about-me{
+        margin-bottom: 50px;
+        .profile-img{
+            width: 33%;
+        }
+    
+        .about-me{
+            width: 33%;
+        }
+    
+        .other{
+            width: 33%;
+            padding-top: 80px;
+    }
     }
     
-   
+    
+/*==================TEXT- OM MIG ============================*/
+
+.hiss-pitch{
+    padding-left: 130px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+    h3{
+        width: fit-content;
+        height: auto;
+        padding: 3px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color:  rgb(75, 75, 75);
+        color: $text-color;
+        position: relative;
+    
+       
+    }
+    p{
+        padding-left: 10px;
+        width: 80%;
+        color: $text-color;
+    }
 }
+/*=============================================================*/
+
+
+
+}
+
+
+
+/*==========================================================================================*/
