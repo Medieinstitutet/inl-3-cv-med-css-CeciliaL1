@@ -421,19 +421,21 @@ display: inline-block;
 ============================================================================================*/
 
 footer{
-    background-color: rgb(206, 184, 137);
+   background-color: rgb(206, 184, 137);
+   margin: 0;
+   width: 100%;
    padding-top: 10px;
    padding-bottom: 10px;
-   padding-left: 30px;
-   padding-right: 30px;
-    display: flex;
-    justify-content: space-between;
+   padding-left: 100px;
+   padding-right: 100px;
+   display: flex;
+   justify-content: space-between;
+   
 
     a{
         font-size: 1.5rem;
         text-decoration: none;
         color: black;
-       
     
     }
 }
