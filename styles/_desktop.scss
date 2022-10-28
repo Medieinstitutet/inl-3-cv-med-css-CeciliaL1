@@ -8,24 +8,67 @@
 
 header{
     nav{
-       left: 30%;
+      background-image: linear-gradient(to bottom,rgba(206, 184, 137, 0.7), rgb(35, 35, 35));
+      min-height: 100vh;;
+      left: 20px;
+      top: 0;
+  
     }
+
+   button{
+    display: none;
+   }
+   .menu{
+    background-color: transparent;
+
+    ul{
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    li{
+        display: block;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding-bottom: 35px;
+   }
+   
+
+    a{
+    color: black;
+    &:hover{
+        background-color: transparent;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1.2s ease-in-out infinite alternate;
+    }
+     }
+   }
+   
+   
+   button + .menu {
+    display: inline;
+    opacity: 100;
+    visibility: visible;
+  }
+
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(206, 184, 137), 0 0 40px rgb(206, 184, 137), 0 0 50px rgb(206, 184, 137), 0 0 60px rgb(206, 184, 137), 0 0 70px rgb(206, 184, 137);
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px $accent-color, 0 0 40px $accent-color, 0 0 50px $accent-color, 0 0 60px $accent-color, 0 0 70px $accent-color, 0 0 80px $accent-color;
+    }
+  }
 }
 
 
+/*============================================================================================*/
 
+.page-w-content{
 
-/*==========================================================================================
-======================= STOR DESKTOP ===================================================
-============================================================================================*/
-
-@media  screen and (min-width: 1700px){
     
-
-header{
-    nav{
-       left: 34%;
-    }
-}
-
 }
