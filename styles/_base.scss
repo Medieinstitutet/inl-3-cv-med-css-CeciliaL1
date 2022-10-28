@@ -2,6 +2,9 @@ body{
     font-family: 'Baloo 2', sans-rerif;
     background-color: rgb(35,35,35);
 }
+html{
+    scroll-behavior: smooth;
+}
 /*==========================================================================================
 ======================= FRONT PAGE ===================================================
 ============================================================================================*/
@@ -65,11 +68,11 @@ nav{
 
     .menu{
         background-color:  rgba(206, 184, 137,0.7);
-        width: 200px;
+        width: 180px;
         min-height: 45vh;
         padding-bottom: 30px;
         ul{
-            padding-left: 30px;
+            padding-left: 17px;
         }
 
         li{
@@ -157,6 +160,9 @@ nav{
         }
         a{
             text-decoration: none;
+            &:hover{
+                box-shadow: 0 0 75px rgb(195, 194, 194);
+            }
         }
         i{
             padding-top: 15px;
@@ -166,9 +172,7 @@ nav{
         i.fa-brands.fa-linkedin{
             padding-right: 10px;
         }
-        i:hover{
-            color: $accent-color;
-        }
+        
     }
 
     .other{
@@ -373,7 +377,7 @@ display: inline-block;
     padding-bottom: 20px;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     max-width: 390px;
 
     h2{
@@ -409,7 +413,27 @@ display: inline-block;
     }
 }
 
-
-
 /*=============================================================*/
+}
+
+/*==========================================================================================
+=======================FOTEER ===================================================
+============================================================================================*/
+
+footer{
+    background-color: rgb(206, 184, 137);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: black;
+       
+    
+    }
 }

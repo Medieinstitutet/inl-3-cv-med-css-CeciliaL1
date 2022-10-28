@@ -9,7 +9,8 @@
 header{
     nav{
       background-image: linear-gradient(to bottom,rgba(206, 184, 137, 0.7), rgb(35, 35, 35));
-      min-height: 100vh;;
+      width: 250px;
+      min-height: 100vh;
       left: 20px;
       top: 0;
   
@@ -24,8 +25,7 @@ header{
     ul{
         padding-top: 70px;
         padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
+
     }
 
     li{
@@ -70,5 +70,5 @@ header{
 
 .page-w-content{
 
-    
+
 }
