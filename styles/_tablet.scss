@@ -1,110 +1,116 @@
-
-
 /*==========================================================================================
 ======================= PAGE WITH CONTENT ===================================================
 ============================================================================================*/
 
-.page-w-content{
+.page-w-content {
     margin: auto;
     max-width: 740px;
     padding-top: 50px;
 
 
-    .flex-about-me{
+    .flex-about-me {
         margin-bottom: 50px;
-        .profile-img{
+
+        .profile-img {
             width: 33%;
         }
-    
-        .about-me{
+
+        .about-me {
             width: 33%;
         }
-    
-        .other{
+
+        .other {
             width: 33%;
             padding-top: 80px;
-    }
-    }
-    
-    
-/*==================TEXT- OM MIG ============================*/
-
-.hiss-pitch{
-    padding-left: 130px;
-    padding-right: 70px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-size: 0.9rem;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    
-    h3{
-        width: fit-content;
-        height: auto;
-        padding: 3px;
-        text-align: center;
-        text-transform: uppercase;
-        background-color:  rgb(75, 75, 75);
-        color: $text-color;
-        position: relative;
-    
-       
-    }
-    p{
-        padding-left: 10px;
-        width: 80%;
-        color: $text-color;
-    }
-}
-
-/*=============================================================*/
-
-
-
-.skills-rating{
-    margin: auto;
-    margin-top: 50px;
-    max-width: 700px;
-    height: auto;
-    padding: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr ;
-    row-gap: 40px;
-    border-radius: 0;
-    .html, .css, .JavaScript, .cSharp, .react{
-        padding-right: 40px;
-        
-    }
-
-}
-/*==========================================================================================*/
-
-.education {
-    margin: auto;
-    max-width: 700px;
-    margin-top: 50px;
-  
-    h2{
-        margin-left: 170px
-    }
-}
-
-.work-experience{
-    margin: auto;
-    max-width: 700px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-
-    h2{
-        margin-left: 70px
         }
-}
-  
+    }
+
+
+    /*==================TEXT- OM MIG ============================*/
+
+    .hiss-pitch {
+        padding-left: 130px;
+        padding-right: 70px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+
+        h3 {
+            width: fit-content;
+            height: auto;
+            padding: 3px;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: rgb(75, 75, 75);
+            color: $text-color;
+            position: relative;
+
+
+        }
+
+        p {
+            padding-left: 10px;
+            width: 80%;
+            color: $text-color;
+        }
+    }
+
+    /*=============================================================*/
+
+
+
+    .skills-rating {
+        margin: auto;
+        margin-top: 50px;
+        max-width: 700px;
+        height: auto;
+        padding: 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 40px;
+        border-radius: 0;
+
+        .html,
+        .css,
+        .JavaScript,
+        .cSharp,
+        .react {
+            padding-right: 40px;
+
+        }
+
+    }
+
+    /*==========================================================================================*/
+
+    .education {
+        margin: auto;
+        max-width: 700px;
+        margin-top: 50px;
+
+        h2 {
+            margin-left: 170px
+        }
+    }
+
+    .work-experience {
+        margin: auto;
+        max-width: 700px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+        h2 {
+            margin-left: 70px
+        }
+    }
+
 }
 
 
-footer{
+footer {
     padding-left: 200px;
     padding-right: 200px;
 

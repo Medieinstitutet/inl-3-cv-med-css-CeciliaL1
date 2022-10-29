@@ -2,16 +2,17 @@ $accent-color: rgb(25, 56, 26);
 $text-color: rgb(206, 184, 137);
 
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
 @import 'base';
 
-@media screen and (min-width: 740px){
+@media screen and (min-width: 740px) {
     @import 'tablet';
 }
+
 @media screen and (min-width: 1366px) {
     @import 'desktop';
 }
