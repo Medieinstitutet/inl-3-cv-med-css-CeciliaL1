@@ -1,262 +1,275 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zxx">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Portfolio CV HTML CSS 'Front End Developer'">
+    <meta name="keywords"content="Portfolio CV HTML CSS 'Front End Developer'">
+
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap" rel="stylesheet"> 
-    
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/5bfa57c688.js" crossorigin="anonymous"></script>
-   
+
     <title>Cecilia Lepik</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <!-- Länkarna ska gå till olika delar av CV:et-->
+      <nav>
+        <button class="menu-button">Navigera på sidan</button>
 
-    <header> <!-- Länkarna ska gå till olika delar av CV:et-->
-        <nav>
-            <button class="menu-button">Navigera på sidan</button>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#about-me">Om mig</a></li>
-                    <li><a href="#education">Utbildning</a></li>
-                    <li><a href="#work-experience">Arbetslivserfarenhet</a></li>
-                    <li><a href="#page-top">Toppen av sidan</a></li>
-                    <li><a href="#page-bottom">Botten av sidan</a></li>
-                </ul>
-            </div>
-
-        </nav>
+        <div class="menu">
+          <ul>
+            <li><a href="#about-me">Om mig</a></li>
+            <li><a href="#education">Utbildning</a></li>
+            <li><a href="#work-experience">Arbetslivserfarenhet</a></li>
+            <li><a href="#page-top">Toppen av sidan</a></li>
+            <li><a href="#page-bottom">Botten av sidan</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <div class="front-page" id="page-top">
-        <h1>Cecilia Lepik</h1>
-        <p>Studerande till Front End Developer på Medieinstitutet</p>
+      <h1>Cecilia Lepik</h1>
+      <p>Studerande till Front End Developer på Medieinstitutet</p>
     </div>
 
-
-<main class="page-w-content" >
-    
-    <section class="flex-about-me" id="about-me">
-
+    <main class="page-w-content">
+      <section class="flex-about-me" id="about-me">
         <div class="profile-img">
-             <figure>
-                  <img src="./images/cecilia.jpg" width="200" alt="profilbild av leende kvinna i blå klänning med blommor på.">
-             </figure>
-        </div >
-
-
-       <div class="about-me"  >
-            <ul>
-                <li>07XXXXXXXX</li>
-                <li>ceciliaXX@hotmail.com</li>
-                <li>Furulund, Skåne</li>
-            
-                <li><a href="https://www.linkedin.com/in/cecilia-l-51b217253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/CeciliaL1" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
-            </ul>
+          <figure>
+            <img src="./images/cecilia.jpg" width="200" height="250" alt="profilbild av leende kvinna med långt ljusbrunt hår i blå klänning med blommor på." loading="lazy">
+          </figure>
         </div>
 
+        <div class="about-me">
+          <ul>
+            <li>07XXXXXXXX</li>
+            <li>ceciliaXX@hotmail.com</li>
+            <li>Furulund, Skåne</li>
 
-       <div class="other">
-            <h4>Språk</h4>
-                
-            <div class="rating">
-                <p>Svenska</p> <!-- Här ska en rating in 5/5-->
-                <span class="dot-filled"></span>
-                <span class="dot-filled"></span>
-                <span class="dot-filled"></span>
-                <span class="dot-filled"></span> 
-                <span class="dot-filled"></span> 
-            </div>
-
-                
-            <div class="rating">
-                <p>Engelska</p> <!-- Här ska en rating in 4/5-->
-                <span class="dot-filled"></span>
-                <span class="dot-filled"></span>
-                <span class="dot-filled"></span>
-                <span class="dot-filled"></span> 
-                <span class="dot"></span> 
-            </div>
-
-                
-        
-
+            <li>
+              <a href="https://www.linkedin.com/in/cecilia-l-51b217253/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/CeciliaL1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            </li>
+          </ul>
         </div>
-    </section>
 
-    <!--Section för Hisspitch/personligt brev-->
+        <div class="other">
+          <h4>Språk</h4>
 
-    <section class="pitch">
-            <h3>Om mig</h3>
-            <p>Mitt namn är Cecilia Lepik jag är 28 år och bor i Furulund. Anledningen att jag vill komma i kontakt med dig är för att jag för nuvarande är studerande till Frond End Developer på Medieinstitutet, distansutbildning. Hösten 2023 ska vi ge oss ut på vår första LIA (Lärande-i-arbete) period som är 10 veckor sammanlagt. Att få göra min LIA hos er hade varit väldigt roligt och lärorikt. Jag söker till er då jag uppfattar ert företag som ett väldigt brett företag inom tech. Men också för att kunna se hur en Front End Developer arbetar i praktiken. Jag tycker det är väldigt intressant och roligt med JavaScript, att kunna utveckla en dynamisk och fungerande hemsida. </p>
-    </section>
+          <div class="rating">
+            <p>Svenska</p>
+            <!-- Här ska en rating in 5/5-->
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+          </div>
 
-    <!--Skill-rating inom områden -->
+          <div class="rating">
+            <p>Engelska</p>
+            <!-- Här ska en rating in 4/5-->
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
 
-    <section class="skills-rating">
+      <!--Section för Hisspitch/personligt brev-->
 
+      <section class="pitch">
+        <h3>Om mig</h3>
+        <p>
+          Mitt namn är Cecilia Lepik jag är 28 år och bor i Furulund.
+          Anledningen att jag vill komma i kontakt med dig är för att jag för
+          nuvarande är studerande till Frond End Developer på Medieinstitutet,
+          distansutbildning. Hösten 2023 ska vi ge oss ut på vår första LIA
+          (Lärande-i-arbete) period som är 10 veckor sammanlagt. Att få göra min
+          LIA hos er hade varit väldigt roligt och lärorikt. Jag söker till er
+          då jag uppfattar ert företag som ett väldigt brett företag inom tech.
+          Men också för att kunna se hur en Front End Developer arbetar i
+          praktiken. Jag tycker det är väldigt intressant och roligt med
+          JavaScript, att kunna utveckla en dynamisk och fungerande hemsida.
+        </p>
+      </section>
+
+      <!--Skill-rating inom områden -->
+
+      <section class="skills-rating">
         <div class="html">
-            <h5>HTML</h5>
-            <!-- Här ska en rating in 2/5 med CSS-->
-                 <div class="rating">
-                    <span class="dot-filled"></span>
-                    <span class="dot-filled"></span>
-                    <span class="dot-h-filled"></span>
-                    <span class="dot"></span> 
-                    <span class="dot"></span> 
-                 </div>
+          <h5>HTML</h5>
+          <!-- Här ska en rating in 2/5 med CSS-->
+          <div class="rating">
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-h-filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
         </div>
 
         <div class="css">
-            <h5>CSS</h5>
-               <div class="rating">
+          <h5>CSS</h5>
+          <div class="rating">
             <!-- Här ska en rating in 2/5 med CSS-->
-                    <span class="dot-filled"></span>
-                    <span class="dot-filled"></span>
-                    <span class="dot-h-filled"></span>
-                    <span class="dot"></span> 
-                    <span class="dot"></span> 
-                </div>
-            
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-h-filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
         </div>
 
         <div class="JavaScript">
-            <h5>JavaScript</h5>
-            <!-- Här ska en rating in 0/5 med CSS-->
-                <div class="rating">
-                    <span class="dot-h-filled"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span> 
-                    <span class="dot"></span> 
-                </div>
+          <h5>JavaScript</h5>
+          <!-- Här ska en rating in 0/5 med CSS-->
+          <div class="rating">
+            <span class="dot-h-filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
         </div>
 
         <div class="cSharp">
-            <h5>C#</h5>
-            <!-- Här ska en rating in 1/5 med CSS-->
-            <div class="rating">
-                <span class="dot-filled"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-            </div>
-          
+          <h5>C#</h5>
+          <!-- Här ska en rating in 1/5 med CSS-->
+          <div class="rating">
+            <span class="dot-filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
         </div>
 
         <div class="react">
-            <h5>React</h5>
-            <!-- Här ska en rating in 0/5 med CSS-->
-            <div class="rating">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-            </div>
+          <h5>React</h5>
+          <!-- Här ska en rating in 0/5 med CSS-->
+          <div class="rating">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!--Utbildning-->
-    <section id="education" class="education">
-
+      <!--Utbildning-->
+      <section id="education" class="education">
         <h2>Utbildning</h2>
 
         <section class="fed">
-            <h3>Front End Developer - Medieinstitutet</h3>
+          <h3>Front End Developer - Medieinstitutet</h3>
 
-                <div>
-                   <h4>Pågende kurs</h4>
-                   <ul>
-                        <li>HTML & CSS - 20yhp</li>
-                        <li>Kompetensportfölj och entrepenörsskap - 10yhp</li>
-                   </ul> 
-                </div>
+          <div>
+            <h4>Pågende kurs</h4>
+            <ul>
+              <li>HTML & CSS - 20yhp</li>
+              <li>Kompetensportfölj och entrepenörsskap - 10yhp</li>
+            </ul>
+          </div>
 
-                <div>
-                  <h4>Avslutade Kurser</h4>
-                  <ul>
-                    <li>Ingen avslutad kurs för nuvarande</li>
-                  </ul>
-                </div>
+          <div>
+            <h4>Avslutade Kurser</h4>
+            <ul>
+              <li>Ingen avslutad kurs för nuvarande</li>
+            </ul>
+          </div>
 
-                <div>
-                    <h4>Kommande kurser</h4>
-                    <ul>
-                        <li>JavaScrips Grundkurs - 40yhp</li>
-                        <li>Grafiska verktyg för gränssnittsdesign - 15yhp</li>
-                        <li>Testning - 15yhp</li>
-                        <li>Arbetsmetodik för utvecklade - 10yhp</li>
-                        <li>API-Utveckling - 45yhp</li>
-                        <li>Agilt projektarbete - 10yhp</li>
-                        <li>JavaScript Fördjupning - 60yhp</li>
-                        <li>UX & Usability - 15yhp</li>
-                        <li>LIA 1 - 50yhp</li>
-                        <li>LIA 2 - 80yhp</li>
-                        <li>Examensarbete - 30yhp</li>
-                    </ul>
-                </div>
+          <div>
+            <h4>Kommande kurser</h4>
+            <ul>
+              <li>JavaScrips Grundkurs - 40yhp</li>
+              <li>Grafiska verktyg för gränssnittsdesign - 15yhp</li>
+              <li>Testning - 15yhp</li>
+              <li>Arbetsmetodik för utvecklade - 10yhp</li>
+              <li>API-Utveckling - 45yhp</li>
+              <li>Agilt projektarbete - 10yhp</li>
+              <li>JavaScript Fördjupning - 60yhp</li>
+              <li>UX & Usability - 15yhp</li>
+              <li>LIA 1 - 50yhp</li>
+              <li>LIA 2 - 80yhp</li>
+              <li>Examensarbete - 30yhp</li>
+            </ul>
+          </div>
         </section>
 
         <!--Övrig utbildning-->
 
         <section class="other-edu">
-           
-                <h4>Gymnasiekurser</h4>
-                <ul>
-                    <li>Webbutveckling 1</li>
-                    <li>Programmering 1</li>
-                </ul>
-                <h4>Gildaskolan - Malmö</h4>
-                <ul>
-                    <li>Hudterapeut</li>
-                </ul>
-                <h4>Komvux-Kävlinge</h4>
-                <ul>
-                    <li>Undersköterska</li>
-                </ul>
-            
-            </section>
-    </section>
+          <h4>Gymnasiekurser</h4>
+          <ul>
+            <li>Webbutveckling 1</li>
+            <li>Programmering 1</li>
+          </ul>
+          <h4>Gildaskolan - Malmö</h4>
+          <ul>
+            <li>Hudterapeut</li>
+          </ul>
+          <h4>Komvux-Kävlinge</h4>
+          <ul>
+            <li>Undersköterska</li>
+          </ul>
+        </section>
+      </section>
 
-        <!--- Arbetslivserfarenhet-->
+      <!--- Arbetslivserfarenhet-->
 
-    <section id="work-experience" class="work-experience">
-
+      <section id="work-experience" class="work-experience">
         <h2>Arbetslivserfarenhet</h2>
 
         <section>
-            <h4>Lenhud - Hudterapeut</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <h4>Lenhud - Hudterapeut</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum
+          </p>
         </section>
 
         <section>
-            <h4>Förenade Care - Undersköterska</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <h4>Förenade Care - Undersköterska</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum
+          </p>
         </section>
 
         <section>
-            <h4>Graffiti café</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <h4>Graffiti café</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum
+          </p>
         </section>
+      </section>
+    </main>
+    <footer id="page-bottom">
+      <!--id för att kunna länka till sidans botten-->
+      <a href="#page-top"><i class="fa-solid fa-arrow-up"></i></a>
+      <a href="https://www.linkedin.com/in/cecilia-l-51b217253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/CeciliaL1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+    </footer>
 
-    </section>
-   
-</main>
-<footer  id="page-bottom"><!--id för att kunna länka till sidans botten-->
-    <a href="#page-top"><i class="fa-solid fa-arrow-up"></i></a>
-    <a href="https://www.linkedin.com/in/cecilia-l-51b217253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-    <a href="https://github.com/CeciliaL1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-</footer>
-
-<script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
