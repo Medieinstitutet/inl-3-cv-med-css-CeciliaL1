@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="sv">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"content="Portfolio CV HTML CSS 'Front End Developer'">
+    <meta name=”robots” content="index">
+    <meta name="description" content="Portfoilo of a front end developer student">
+    <meta name="keywords" content="Portfolio, CV, HTML, CSS, Front End Developer">
+
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="index.html">
+    <meta property="og:image" content="./images/open-graph-img.jpg">
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -15,7 +22,7 @@
 
     <script src="https://kit.fontawesome.com/5bfa57c688.js" crossorigin="anonymous"></script>
 
-    <title>Cecilia Lepik</title>
+    <title>Cecilia Lepik - Portfolio</title>
   </head>
   <body>
     <header>
@@ -55,7 +62,7 @@
             <li>Furulund, Skåne</li>
 
             <li>
-              <a href="https://www.linkedin.com/in/cecilia-l-51b217253/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/cecilia-l-51b217253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
               <a href="https://github.com/CeciliaL1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
             </li>
           </ul>
@@ -105,8 +112,9 @@
       </section>
 
       <!--Skill-rating inom områden -->
-
-      <section class="skills-rating">
+  <div class="skill-rating">
+      <section class="grid-rating">
+        <h3 class="grid-heading">Kompetenser</h3>
         <div class="html">
           <h5>HTML</h5>
           <!-- Här ska en rating in 2/5 med CSS-->
@@ -166,7 +174,21 @@
             <span class="dot"></span>
           </div>
         </div>
+
+        <div class="nodeJs">
+          <h5>Node.js</h5>
+          <!-- Här ska en rating in 0/5 med CSS-->
+          <div class="rating">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
       </section>
+    </div>
+    
 
       <!--Utbildning-->
       <section id="education" class="education">
@@ -235,30 +257,21 @@
         <section>
           <h4>Lenhud - Hudterapeut</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Mycket kundmöten, gjorde behandlingar, tog emot bokningar, stod i receptionen.<br> Hade även ansvar över ordrar till salongen. Arbetade i ett team på 7 anställda där samarbete är viktigt för att salongen ska fungera.
           </p>
         </section>
 
         <section>
           <h4>Förenade Care - Undersköterska</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Arbete som undersköterska på demensboende, kräver mycket tålamod och förståelse<br> Hade anvsar över olika administrativa delar av arbetet och dokumentationen. 
           </p>
         </section>
 
         <section>
           <h4>Graffiti café</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.<br>Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Började arbeta parallelt med skolan i Nian på högstadiet och fortsatte hela gymnasietiden och en tid efter<br> Fick helg ansvar att se till att produkter förbereddes inför dagen och att andra medarbetare fullföljde sina arbetsuppgifter.
           </p>
         </section>
       </section>
