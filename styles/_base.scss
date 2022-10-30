@@ -260,21 +260,53 @@ nav {
     /*=============================================================*/
 
     /*================== RATINGS ============================*/
-    .skills-rating {
+    .skill-rating{
+        border: 1px solid black;
         margin: auto;
-        margin-top: 50px;
-        max-width: 300px;
+        max-width: 390px;
+        margin-bottom: 20px;
+        box-shadow: 7px 5px 15px 5px rgba(0, 0, 0, 0.7);
+
+    h3{
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgb(35, 35, 35);
+        color: $text-color;
+        box-shadow: 0 0 45px rgb(162, 161, 161);
+        margin-bottom: 20px;
+    }
+    
+    .grid-rating {
+        margin: auto;
         height: auto;
         display: grid;
         padding: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        border: 2px solid rgb(52, 56, 52);
-        border-radius: 20%;
-        background-color: rgb(115, 122, 115);
-        box-shadow: 7px 5px 15px 5px rgba(0, 0, 0, 0.7);
-        text-align: center;
+        grid-template-rows: 0.3fr 1fr 1fr 1fr;
+        
+        .grid-heading { grid-area: 1 / 3 / 2 / 1; }
+        .html { grid-area: 2 / 2 / 2 / 1; }
+        .css { grid-area: 2 / 2 / 2 / 2; }
+        .JavaScript { grid-area: 3 / 1 / 3 / 1; }
+        .cSharp { grid-area: 3 / 2 / 3 / 2; }
+        .react { grid-area: 4 / 1 / 4 / 2; }
+        .nodeJs { grid-area: 4 / 2 / 4 / 2; }
+        
 
+        .html, .css, .JavaScript, .cSharp, .react, .nodeJs{
+            border-radius: 20%;
+            background-color: rgb(115, 122, 115);
+            box-shadow: 7px 5px 15px 5px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            border: 2px solid rgb(52, 56, 52);
+            padding: 20px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
 
         .dot-filled {
             height: 10px;
@@ -306,7 +338,7 @@ nav {
             display: inline-block;
         }
     }
-
+}
 
     /*=============================================================*/
 
