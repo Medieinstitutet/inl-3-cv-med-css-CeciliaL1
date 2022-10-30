@@ -187,7 +187,7 @@ nav {
 
         }
 
-        .other {
+        .other-info {
             width: 100%;
             padding-top: 30px;
             font-size: 0.8rem;
@@ -289,13 +289,13 @@ nav {
         .grid-heading { grid-area: 1 / 3 / 2 / 1; }
         .html { grid-area: 2 / 2 / 2 / 1; }
         .css { grid-area: 2 / 2 / 2 / 2; }
-        .JavaScript { grid-area: 3 / 1 / 3 / 1; }
-        .cSharp { grid-area: 3 / 2 / 3 / 2; }
+        .java-script { grid-area: 3 / 1 / 3 / 1; }
+        .c-sharp { grid-area: 3 / 2 / 3 / 2; }
         .react { grid-area: 4 / 1 / 4 / 2; }
         .nodeJs { grid-area: 4 / 2 / 4 / 2; }
         
 
-        .html, .css, .JavaScript, .cSharp, .react, .nodeJs{
+        .html, .css, .java-script, .c-sharp, .react, .node-js{
             border-radius: 20%;
             background-color: rgb(115, 122, 115);
             box-shadow: 7px 5px 15px 5px rgba(0, 0, 0, 0.7);
@@ -365,7 +365,7 @@ nav {
             margin-bottom: 10px;
         }
 
-        .fed {
+        .f-e-d {
             padding-top: 10px;
             padding-bottom: 20px;
             margin-left: 7px;
