@@ -7,6 +7,20 @@ $text-color: rgb(206, 184, 137);
     box-sizing: border-box;
 }
 
+/* Reseting margin */
+body,
+h1,
+h2,
+h3,
+h4,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
 @import 'base';
 
 @media screen and (min-width: 740px) {

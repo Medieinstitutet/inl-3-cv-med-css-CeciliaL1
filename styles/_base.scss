@@ -23,14 +23,21 @@ html {
         position: relative;
         top: 400px;
         text-align: center;
-        color: $text-color;
+        color: black;
         text-transform: uppercase;
-        text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+        text-shadow:
+            0 0 20px rgb(223, 205, 167),
+            0 0 42px $text-color,
+            0 0 82px $text-color,
+            0 0 92px $text-color,
+            0 0 102px $text-color,
+            0 0 151px $text-color;
     }
 
     p {
         position: relative;
         top: 390px;
+        margin-top: 20px;
         text-align: center;
         color: rgba(206, 184, 137, 0.7);
         text-transform: uppercase;
@@ -313,6 +320,7 @@ nav {
         margin-top: 50px;
         margin-bottom: 50px;
         max-width: 390px;
+        box-shadow: 7px 20px 20px 10px rgba(0, 0, 0, 0.7);
 
         h2 {
             text-align: center;
@@ -394,6 +402,7 @@ nav {
         margin-top: 50px;
         margin-bottom: 100px;
         max-width: 390px;
+        box-shadow: 7px 20px 20px 10px rgba(0, 0, 0, 0.7);
 
         h2 {
             text-align: center;
