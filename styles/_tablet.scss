@@ -9,7 +9,7 @@
 
 
     .flex-about-me {
-        margin-bottom: 50px;
+        
 
         .profile-img {
             width: 33%;
@@ -17,11 +17,28 @@
 
         .about-me {
             width: 33%;
+
+            h3{
+                padding-bottom: 15px;
+                margin-left: 60px;
+            }
+            ul{
+                margin-left: 60px;
+
+            }
         }
 
         .other-info {
             width: 33%;
-            padding-top: 80px;
+            padding-top: 50px;
+
+            h3{
+                padding-bottom: 20px;
+            }
+
+            .rating{
+                padding-bottom: 15px;
+            }
         }
     }
 
@@ -31,8 +48,8 @@
     .pitch {
         padding-left: 130px;
         padding-right: 70px;
-        padding-top: 40px;
-        padding-bottom: 20px;
+        padding-top: 70px;
+        padding-bottom: 70px;
         font-size: 0.9rem;
         display: flex;
         flex-direction: row;
@@ -82,7 +99,7 @@
     .education {
         margin: auto;
         max-width: 700px;
-        margin-top: 50px;
+        margin-top: 70px;
 
         h2 {
             margin-left: 170px
@@ -92,7 +109,7 @@
     .work-experience {
         margin: auto;
         max-width: 700px;
-        margin-top: 50px;
+        margin-top: 70px;
         margin-bottom: 100px;
 
         h2 {
