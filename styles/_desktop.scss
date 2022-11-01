@@ -67,6 +67,15 @@ header {
   }
 }
 
+@media (prefers-reduced-motion) {
+  header {
+    a {
+      &:hover {
+        animation: none;
+      }
+    }
+  }
+}
 
 /*============================================================================================*/
 footer {

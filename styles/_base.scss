@@ -177,7 +177,8 @@ nav {
         .about-me {
             width: 50%;
 
-            h3 {
+            h2 {
+                font-size: 1.2rem;
                 color: $text-color;
                 padding-bottom: 10px;
                 padding-top: 50px;
@@ -227,7 +228,8 @@ nav {
             width: 100%;
             padding-top: 10px;
 
-            h3 {
+            h2 {
+                font-size: 1.2rem;
                 color: $text-color;
                 padding-bottom: 10px;
 
@@ -409,7 +411,7 @@ nav {
 
     /*========= UTBILDNING & ARBETSLIVSERFARENHET ===========*/
     .education {
-        background-color: rgb(104, 104, 104);
+        background-color: rgb(128, 128, 128);
         padding-top: 20px;
         padding-bottom: 20px;
         margin: auto;
@@ -418,7 +420,7 @@ nav {
         max-width: 390px;
         box-shadow: 7px 20px 20px 10px rgba(0, 0, 0, 0.7);
 
-        h2 {
+        h3 {
             text-align: center;
             text-transform: uppercase;
             background-color: rgb(35, 35, 35);
@@ -442,8 +444,9 @@ nav {
                 text-transform: uppercase;
             }
 
-            h3,
-            h4 {
+            h3, 
+            h4,
+            h5 {
                 text-align: center;
                 padding: 5px;
             }
@@ -469,8 +472,8 @@ nav {
             margin-bottom: 10px;
             border: 1px solid rgb(35, 35, 35);
 
-            h3,
-            h4 {
+            
+            h5 {
                 text-align: center;
                 padding: 5px;
             }
@@ -491,7 +494,7 @@ nav {
     }
 
     .work-experience {
-        background-color: rgb(104, 104, 104);
+        background-color: rgb(128, 128, 128);
         padding-top: 20px;
         padding-bottom: 20px;
         margin: auto;
@@ -500,7 +503,8 @@ nav {
         max-width: 390px;
         box-shadow: 7px 20px 20px 10px rgba(0, 0, 0, 0.7);
 
-        h2 {
+        h4 {
+            font-size: 1.2rem;
             text-align: center;
             text-transform: uppercase;
             background-color: rgb(35, 35, 35);
@@ -511,7 +515,7 @@ nav {
             margin-bottom: 10px;
         }
 
-        h4 {
+        h5 {
             text-align: center;
             padding: 5px;
         }
