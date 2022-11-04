@@ -1,0 +1,19 @@
+/*
+base.scss - all style + mobile
+tablet.scss - all style from 740px
+desktop.scss -all style from 1366px ( small desktop + big desktop)
+*/
+
+$accent-color: rgb(25, 56, 26);
+$text-color: rgb(206, 184, 137);
+
+
+@import 'base';
+
+@media screen and (min-width: 740px) {
+    @import 'tablet';
+}
+
+@media screen and (min-width: 1366px) {
+    @import 'desktop';
+}

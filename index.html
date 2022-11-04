@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”robots” content="index">
+    <meta name="description" content="Portfoilo of a front end developer student">
+    <meta name="keywords" content="Portfolio, CV, HTML, CSS, Front End Developer">
+
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="index.html">
+    <meta property="og:image" content="./images/open-graph-img.jpg">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/5bfa57c688.js" crossorigin="anonymous"></script>
+
+    <title>Cecilia Lepik - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <!-- Länkarna ska gå till olika delar av CV:et-->
+      <nav>
+        <button aria-label="menyknapp" class="menu-button">Navigera i Portfolion</button>
+
+        <div class="menu">
+          <ul>
+            <li><a href="#about-me">Om mig</a></li>
+            <li><a href="#education">Utbildning</a></li>
+            <li><a href="#work-experience">Arbetslivserfarenhet</a></li>
+            <li><a href="#page-top">Toppen av sidan</a></li>
+            <li><a href="#page-bottom">Botten av sidan</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="front-page" id="page-top">
+      <h1>Cecilia Lepik</h1>
+      <p>Studerande till Front End Developer på Medieinstitutet</p>
+    </div>
+
+    <main class="page-w-content">
+      <section class="flex-about-me" id="about-me">   
+        <div class="profile-img">
+          <figure>
+            <img src="./images/cecilia.jpg" width="200" height="250" alt="profilbild av leende kvinna med långt ljusbrunt hår i blå klänning med blommor på." loading="lazy">
+          </figure>
+        </div>
+
+        <div class="about-me">
+          <h2>Kontakta mig:</h2>
+          <ul>
+            <li><a aria-label="phonenumber" href="tel:0729681659"><i class="fa-solid fa-phone contact-icon"></i>0729681659</a></li>
+            <li><a aria-label="email" href="mailto:cecilialepik@gmail.com"><i class="fa-sharp fa-solid fa-envelope contact-icon"></i>cecilialepik@gmail.com</a></li>
+            <li>Hofterup, Skåne</li>
+            <li>
+              <a aria-label="linkedin" href="https://www.linkedin.com/in/cecilia-l-51b217253/" target="_blank"><i class="fa-brands fa-linkedin link-icon"></i></a>
+              <a aria-label="github" href="https://github.com/CeciliaL1" target="_blank"><i class="fa-brands fa-square-github link-icon"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="other-info">
+          <h2>Språk</h2>
+
+          <div class="rating" role="img" aria-label="betyg" aria-description="Svenska, betyg 5 av 5">
+            <p>Svenska</p>
+            <!-- Här ska en rating in 5/5-->
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+          </div>
+
+          <div class="rating" role="img" aria-label="betyg" aria-description="Engelska, betyg 4 av 5">
+            <p>Engelska</p>
+            <!-- Här ska en rating in 4/5-->
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <!--Section för Hisspitch/personligt brev-->
+
+      <section class="pitch">
+        <h3>Om mig</h3>
+        <p>
+          Mitt namn är Cecilia Lepik jag är 28 år och bor i Hofterup.
+          Anledningen att jag vill komma i kontakt med dig är för att jag för
+          nuvarande är studerande till Frond End Developer på Medieinstitutet,
+          distansutbildning. Hösten 2023 ska vi ge oss ut på vår första LIA
+          (Lärande-i-arbete) period som är 10 veckor sammanlagt. Att få göra min
+          LIA hos er hade varit väldigt roligt och lärorikt. Jag söker till er
+          då jag uppfattar ert företag som ett väldigt brett företag inom tech.
+          Men också för att kunna se hur en Front End Developer arbetar i
+          praktiken. Jag tycker det är väldigt intressant och roligt med
+          JavaScript, att kunna utveckla en dynamisk och fungerande hemsida.
+        </p>
+      </section>
+
+      <!--Skill-rating inom områden -->
+  <div class="skill-rating">
+      <section class="grid-rating">
+        <h3 class="grid-heading">Kompetenser</h3>
+        <div class="html" role="img" aria-label="html" aria-description="html, betyg 2,5 av 5">
+          <h4>HTML</h4>
+          <!-- Här ska en rating in 2/5 med CSS-->
+          <div class="rating">
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-h-filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="css" role="img" aria-label="betyg" aria-description="css, betyg 2,5 av 5">
+          <h4>CSS</h4>
+          <div class="rating">
+            <!-- Här ska en rating in 2/5 med CSS-->
+            <span class="dot-filled"></span>
+            <span class="dot-filled"></span>
+            <span class="dot-h-filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="java-script" role="img" aria-label="betyg" aria-description="javascript, betyg 0,5 av 5">
+          <h4>JavaScript</h4>
+          <!-- Här ska en rating in 0/5 med CSS-->
+          <div class="rating">
+            <span class="dot-h-filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="c-sharp" role="img" aria-label="betyg" aria-description="C sharp, betyg 1 av 5">
+          <h4>C#</h4>
+          <!-- Här ska en rating in 1/5 med CSS-->
+          <div class="rating">
+            <span class="dot-filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="react" role="img" aria-label="betyg" aria-description="react, betyg 0 av 5">
+          <h4>React</h4>
+          <!-- Här ska en rating in 0/5 med CSS-->
+          <div class="rating">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="node-js" role="img" aria-label="betyg" aria-description="node.js, betyg 0 av 5">
+          <h4>Node.js</h4>
+          <!-- Här ska en rating in 0/5 med CSS-->
+          <div class="rating">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+
+      <!--Utbildning-->
+      <section id="education" class="education">
+        <h3>Utbildning</h3>
+
+        <section class="f-e-d">
+          <h4>Front End Developer - Medieinstitutet</h4>
+
+          <div>
+            <h5>Pågende kurs</h5>
+            <ul>
+              <li>HTML & CSS - 20yhp</li>
+              <li>Kompetensportfölj och entrepenörsskap - 10yhp</li>
+            </ul>
+          </div>
+
+          <div>
+            <h5>Avslutade Kurser</h5>
+            <ul>
+              <li>Ingen avslutad kurs för nuvarande</li>
+            </ul>
+          </div>
+
+          <div>
+            <h5>Kommande kurser</h5>
+            <ul>
+              <li>JavaScrips Grundkurs - 40yhp</li>
+              <li>Grafiska verktyg för gränssnittsdesign - 15yhp</li>
+              <li>Testning - 15yhp</li>
+              <li>Arbetsmetodik för utvecklade - 10yhp</li>
+              <li>API-Utveckling - 45yhp</li>
+              <li>Agilt projektarbete - 10yhp</li>
+              <li>JavaScript Fördjupning - 60yhp</li>
+              <li>UX & Usability - 15yhp</li>
+              <li>LIA 1 - 50yhp</li>
+              <li>LIA 2 - 80yhp</li>
+              <li>Examensarbete - 30yhp</li>
+            </ul>
+          </div>
+        </section>
+
+        <!--Övrig utbildning-->
+
+        <section class="other-edu">
+          <h5>Gymnasiekurser</h5>
+          <ul>
+            <li>Webbutveckling 1</li>
+            <li>Programmering 1</li>
+          </ul>
+          <h5>Gildaskolan - Malmö</h5>
+          <ul>
+            <li>Hudterapeut</li>
+          </ul>
+          <h5>Komvux-Kävlinge</h5>
+          <ul>
+            <li>Undersköterska</li>
+          </ul>
+        </section>
+      </section>
+
+      <!--- Arbetslivserfarenhet-->
+
+      <section id="work-experience" class="work-experience">
+        <h4>Arbetslivserfarenhet</h4>
+
+        <section>
+          <h5>Lenhud - Hudterapeut</h5>
+          <p>
+            Mycket kundmöten, gjorde behandlingar, tog emot bokningar, stod i receptionen.<br> Hade även ansvar över ordrar till salongen. Arbetade i ett team på 7 anställda där samarbete är viktigt för att salongen ska fungera.
+          </p>
+        </section>
+
+        <section>
+          <h5>Förenade Care - Undersköterska</h5>
+          <p>
+            Arbete som undersköterska på demensboende, kräver mycket tålamod och förståelse<br> Hade anvsar över olika administrativa delar av arbetet och dokumentationen. 
+          </p>
+        </section>
+
+        <section>
+          <h5>Graffiti café</h5>
+          <p>
+            Började arbeta parallelt med skolan i Nian på högstadiet och fortsatte hela gymnasietiden och en tid efter<br> Fick helg ansvar att se till att produkter förbereddes inför dagen och att andra medarbetare fullföljde sina arbetsuppgifter.
+          </p>
+        </section>
+      </section>
+    </main>
+    <footer id="page-bottom">
+      <!--id för att kunna länka till sidans botten-->
+      <a aria-label="pagetop" href="#page-top"><i class="fa-solid fa-arrow-up"></i></a>
+      <a aria-label="linkedin" href="https://www.linkedin.com/in/cecilia-l-51b217253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a aria-label="github" href="https://github.com/CeciliaL1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
